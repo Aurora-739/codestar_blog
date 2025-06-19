@@ -1,7 +1,6 @@
 from django.shortcuts import render
-from blog import models
 from django.views import generic
-from models import Post
+from .models import Post
 
 # Create your views here.
 class PostList(generic.ListView):
