@@ -31,5 +31,3 @@ def post_detail(request, slug):
         "blog/post_detail.html",
         {"post": post},
     )
-
-
